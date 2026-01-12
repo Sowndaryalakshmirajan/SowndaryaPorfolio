@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SowndaryaPorfolio</title>
+  {%load static%}
+  <link rel="stylesheet" href="{% static 'bootstrap/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
+  <nav class="navbar fixed-top navbar-expand-lg custom-navbar">
+
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="#">Sowndarya L</a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+      <ul class="navbar-nav nacol">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#hero-section">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#internships">Internships</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="hero-section" id="hero-section">
+  <h1 class="hero-name">Hi, I'm Sowndarya 👋💻</h1>
+
+  <p class="hero-text">
+    I am a motivated Computer Science postgraduate with strong skills in Python and web development, 
+    eager to begin my career in an entry-level role where I can apply my technical knowledge, 
+    contribute to organizational success, and grow as a professional.
+  </p>
+  <br>  
+  <div class="download-cv">
+  <a href="{% static 'files/SowndaryaCV.pdf' %}" download class="btn-download">
+    Download CV
+  </a>
+</div>
+
+
+  <!-- Social links -->
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/sowndarya-l-0a6837315" target="_blank">
+      <img src="{% static 'icons/linkedin.png' %}" alt="LinkedIn">
+    </a>
+    <a href="https://github.com/Sowndaryalakshmirajan" target="_blank">
+      <img src="{% static 'icons/github.png' %}" alt="GitHub">
+    </a>
+    <a href="https://instagram.com/sawn_duhr_yaa" target="_blank">
+      <img src="{% static 'icons/instagram.png' %}" alt="Instagram">
+    </a>
+  </div>
+</section>
+
+<section id="about" class="about-section">
+  <div class="about-container">
+
+    <!-- Left Side Image -->
+    <div class="about-image">
+      <img src="{%static 'images/ima2.jpg'%}" alt="IT Developer Workspace">
+    </div>
+    <!-- <div><h2>About Me</h2></div> -->
+
+    <!-- Right Side Content -->
+    <div class="about-content about-text">
+      <div class="a"><h2>About Me</h2></div>
+      <br>
+
+      <p>
+        Hi, I’m <strong style="color: white;">Sowndarya</strong>, a Computer Science postgraduate with a strong interest 
+        in Python and web development. I enjoy building clean, responsive websites and 
+        solving problems using logical thinking. Location: Trichy, India.
+      </p>
+
+      <p>
+        I have successfully developed projects such as 
+        <b style="color: white;">Unused Medicine Donation to NGO</b>, <b style="color: white;">Boarding Hub</b>, and 
+        <b style="color: white;">Food Recommendations for Diabetes Patients</b> utilizing 
+        <b style="color: white;">Python, Django, MongoDB, HTML, CSS, JavaScript, and Bootstrap</b>. 
+        I am a continuous learner, always eager to explore new technologies 
+        and enhance my full-stack development expertise.
+      </p>
+
+      <p>
+        I’m looking for an entry-level opportunity where I can apply my technical knowledge, 
+        learn from experienced professionals, and contribute to the growth of the organization.
+      </p>
+    </div>
+
+  </div>
+</section>
+<section id="skills" class="skills-section">
+  <h2 style="color:#66FCF1;">Skills</h2>
+
+  <div class="skills-grid">
+
+    <div class="skill-item">
+      <i class="fa-brands fa-python"></i>
+      <span>Python</span>
+    </div>
+
+    <div class="skill-item">
+      <i class="fa-brands fa-html5"></i>
+      <span>HTML</span>
+    </div>
+
+    <div class="skill-item">
+      <i class="fa-brands fa-css3-alt"></i>
+      <span>CSS</span>
+    </div>
+
+    <div class="skill-item">
+      <i class="fa-brands fa-js"></i>
+      <span>JavaScript</span>
+    </div>
+
+    <div class="skill-item">
+      <i class="fa-brands fa-bootstrap"></i>
+      <span>Bootstrap</span>
+    </div>
+
+    <div class="skill-item">
+      <i class="fa-solid fa-database"></i>
+      <span>MongoDB</span>
+    </div>
+
+    <div class="skill-item">
+      <i class="fa-brands fa-python"></i>
+      <span>Django</span>
+    </div>
+
+  </div>
+</section>
+<section id="tools" class="skills-section">
+  <h2 style="color:#66FCF1;">Tools</h2>
+
+  <div class="skills-grid">
+
+    <div class="skill-item">
+      <i class="fa-brands fa-git-alt"></i>
+      <span>Git</span>
+    </div>
+
+    <div class="skill-item">
+      <i class="fa-brands fa-github"></i>
+      <span>GitHub</span>
+    </div>
+
+    <div class="skill-item">
+      <i class="fa-solid fa-code"></i>
+      <span>VS Code</span>
+    </div>
+
+   
+
+  </div>
+</section>
+<section id="internships" >
+  <div class="container">
+
+    <h2 class="text-center mb-5">Internships</h2>
+     <!-- <h2 class="text-center pt-5 pb-4 mb-5">Internships</h2> -->
+
+
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100 shadow-sm">
+          <img src="{% static 'images/python1.jpeg' %}" class="card-img-top" alt="Python Internship">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Python Developer Intern</h5> -->
+            <h6 class="card-subtitle mb-2 text-muted">
+                Python Development Intern 
+            </h6>
+            <p class="card-text" style="color: black;">
+              Python Developer Intern  
+Learned Python fundamentals and advanced concepts  
+ Worked on Python programs and mini projects  
+ Gained hands-on experience with data handling, loops, functions, and OOP  
+ Enhanced problem-solving and logical thinking abilities  
+
+<strong >Skills: Python, Problem Solving, Basic Data Structures
+</strong>
+            </p>
+            <p><b>Tech:</b> Python</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100 shadow-sm">
+          <img src="{% static 'images/python2.jpeg' %}" class="card-img-top" alt="Python Internship">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              Project certificate
+            </h6>
+            <p class="card-text">
+              Python Developer Intern – <strong >SHASAA Groups </strong> 
+18.11.2024 – 07.12.2024  
+
+Completed multiple Python-based projects including  <strong >Quiz Game, Rock-Paper-Scissors,
+To-Do List Application, and Bank Management System.</strong> Developed strong programming
+logic, debugging skills, and user-friendly application design.
+
+            </p>
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100 shadow-sm">
+          <img src="{% static 'images/python3.jpeg' %}" class="card-img-top" alt="Python Internship">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Django Intern</h5> -->
+            <h6 class="card-subtitle mb-2 text-muted" >
+               Python Development Intern 
+            </h6>
+            <p class="card-text">
+              Python Development Intern – <strong >Cognifyz Technologies  </strong>
+October 2025 – November 2025  
+
+Worked as a Python Development Intern, demonstrating strong dedication,
+problem-solving ability, and enthusiasm for learning. Gained experience
+in Python development, effective <strong >communication, and handling real-world
+assignments </strong> with attention to detail.
+
+            </p>
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100 shadow-sm">
+          <img src="{% static 'images/t4teq.jpeg' %}" class="card-img-top" alt="Python Internship">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Full Stack Intern</h5> -->
+            <h6 class="card-subtitle mb-2 text-muted">
+              Full Stack Intern
+            </h6>
+            <p class="card-text">
+             Python & Django Intern  <strong>t4teq software solutions</strong>
+
+Actively contributed to the development of a <strong>Boarding Hub
+(Hostel Room Management System)</strong>  using Python and Django Full Stack.
+
+Designed <strong>frontend using HTML, CSS, and JavaScript  </strong>
+ Developed backend logic with <strong>Python and Django  </strong>
+ Managed database operations using <strong>MongoDB  </strong>
+ Implemented user authentication and authorization   Deployed and hosted the web application
+
+            </p>
+            <p><b>Tech:</b> Python, Django, MongoDB</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section id="projects">
+  <div class="container">
+    <h2 class="text-center mb-5">Projects</h2>
+     <!-- <h2 class="text-center mb-5" style="color:white;">Projects</h2> -->
+
+    <div class="row g-4">
+
+      <!-- Card 1: Boarding Hub -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="{% static 'images/image2.jpeg' %}" class="card-img-top" alt="Boarding Hub">
+          <div class="card-body">
+            <h5 class="card-title">Boarding Hub – Hostel Room Management</h5>
+            <h1><strong style="color: black;">Boarding Hub – Hostel Room Management</strong></h1>
+            <p class="card-text">
+              Tech: Python, Django, MongoDB, HTML, CSS, JS<br>
+              • User auth & room allocation<br>
+              • Backend + frontend modules<br>
+              • Deployed online
+            </p>
+            <!-- <a href="https://github.com/username/boardinghub" target="_blank" class="btn btn-primary btn-sm">GitHub</a> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2: Bank Management System -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="{%static 'images/medi.jpg'%}" class="card-img-top" alt="Bank Management System">
+          <div class="card-body">
+            <h5 class="card-title">Unused Medicine Donation to NGO</h5>
+             <h1><strong style="color: black;">Unused Medicine Donation to NGO</strong></h1>
+            <p class="card-text">
+               Tech: Python, Django, HTML, CSS, Bootstrap<br>
+        • Platform to donate unused medicines to NGOs<br>
+        • Admin panel to manage medicines and donations<br>
+        • Frontend for easy donor interaction
+            </p>
+            <!-- <a href="https://github.com/username/bankmanagement" target="_blank" class="btn btn-primary btn-sm">GitHub</a> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: Diabetes Food Recommendations -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="{% static 'images/food image.webp'%}" class="card-img-top" alt="Diabetes Food Recommendations">
+          <div class="card-body">
+            <h5 class="card-title">Food Recommendations for Diabetes Patients</h5>
+            <h1><strong style="color: black;">Food Recommendations for Diabetes Patients</strong></h1>
+            <p class="card-text">
+               
+              Tech: Python, Django, HTML, CSS, Bootstrap, SQLite<br>
+              • Django app to recommend healthy foods for diabetic patients<br>
+              • Backend logic for patient & food data<br>
+              • Frontend for user-friendly interaction
+            </p>
+            <!-- <a href="https://github.com/username/diabetes-food" target="_blank" class="btn btn-primary btn-sm">GitHub</a> -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section id="contact" class="py-5" style="background: #0B0C10; color: white;">
+  <div class="container">
+    <h2 class="text-center mb-5">Contact Me</h2>
+
+    <div class="row justify-content-center align-items-start">
+      <!-- Left: Contact Info -->
+      <div class="col-md-5 mb-4">
+        <p>Email: <a href="mailto:ssowndaryalakshmirajan@gmail.com" style="color:#66FCF1;">ssowndaryalakshmirajan@gmail.com</a></p>
+        <p>Phone: <a href="tel:+91xxxxxxxxxx" style="color:#66FCF1;">+91 xxxxx xxxxx</a></p>
+        <p>Location: <strong style="color:#66FCF1;">Trichy, India</strong></p>
+
+        <div class="social-links mt-3">
+          <a href="https://www.linkedin.com/in/sowndarya-l-0a6837315" target="_blank">
+            <img src="{% static 'icons/linkedin.png' %}" alt="LinkedIn" width="40">
+          </a>
+          <a href="https://github.com/Sowndaryalakshmirajan" target="_blank">
+            <img src="{% static 'icons/github.png' %}" alt="GitHub" width="40">
+          </a>
+          <a href="https://instagram.com/sawn_duhr_yaa" target="_blank">
+            <img src="{% static 'icons/instagram.png' %}" alt="Instagram" width="40">
+          </a>
+        </div>
+      </div>
+
+     <!-- Right: Contact Form -->
+      <div class="col-md-6">
+        <form action="mailto:ssowndaryalakshmirajan@gmail.com" method="POST" enctype="text/plain">
+          <div class="mb-3">
+            <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <div class="text-center">
+  <button type="submit" class="contact-btn">Send Message</button>
+</div>
+
+        
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+          
+
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+</body>
+</html>
