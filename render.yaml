@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: sowndarya-portfolio
+    env: python
+    buildCommand: ./build.sh
+    startCommand: gunicorn myportfolio.wsgi
